@@ -1,0 +1,13 @@
+API Key (v3 auth)
+e31b15f6d28db1d6980887321440003a
+
+Example API Request
+https://api.themoviedb.org/3/movie/550?api_key=e31b15f6d28db1d6980887321440003a
+
+API Read Access Token (v4 auth)
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlMzFiMTVmNmQyOGRiMWQ2OTgwODg3MzIxNDQwMDAzYSIsInN1YiI6IjYwYzcxYTI4OGU4NzAyMDA2ZDM5N2YxNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.CNuEzc3Tj0yZjXBpkkBchPsG5PMJ99_rz1yJQ8nt7OA
+
+
+install axios 
+ npm i axios
+ 
