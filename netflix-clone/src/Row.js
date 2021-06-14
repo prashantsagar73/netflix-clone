@@ -1,5 +1,6 @@
 import React,{ useState} from 'react';
 import axios from './axios';
+import './Row.css';
 
 const base_url= "https://image.tmdb.org/t/p/original/";  
 
@@ -23,15 +24,19 @@ function Row({title, fetchUrl}) {
     return (
         <div className="row">
             <h2>{title}</h2>
-            <div className="row__poster(s)">
+
+
+            <div className="row__posters">
                 {/* serval row */}
-                {movies.map(movie =>(
-                    <img src={`${base_url}${movie.poster_path}`} alt="{movie.name}"/>
+
+                {movies.map((movie) =>(
+                    <img key={movie.id} className="row__poster"
+                    src={`${base_url}${movie.poster_path}`} alt={movie.name}/>
                 ))}
             </div>
             {/* container -> poster */}
         </div>
-    )
+    );
 }
 
-export default Row
+export default Row;
