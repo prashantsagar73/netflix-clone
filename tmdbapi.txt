@@ -8,6 +8,10 @@ API Read Access Token (v4 auth)
 eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlMzFiMTVmNmQyOGRiMWQ2OTgwODg3MzIxNDQwMDAzYSIsInN1YiI6IjYwYzcxYTI4OGU4NzAyMDA2ZDM5N2YxNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.CNuEzc3Tj0yZjXBpkkBchPsG5PMJ99_rz1yJQ8nt7OA
 
 
-install axios 
+{% comment %} install axios to get the data through api  {% endcomment %}
  npm i axios
- 
+
+ {% comment %} to get vido data form youtube {% endcomment %}
+ npm i react-youtube
+  {% comment %} to get movie trailer data form youtube {% endcomment %}
+  npm i movie-trailer
