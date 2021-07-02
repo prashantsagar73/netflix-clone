@@ -1,6 +1,6 @@
 # Netflix Clone
 
-- **Netflix Clone made with React, Redux and Firebase**
+- **Netflix Clone made with React, Redux and AWS**
 
 ---
 
