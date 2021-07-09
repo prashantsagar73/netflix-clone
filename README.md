@@ -1,7 +1,8 @@
 # Netflix Clone
 
 - **Netflix Clone made with React, Redux and AWS**
-
+```npm install ```
+```npm start ```
 ---
 
 ## Quick Links
